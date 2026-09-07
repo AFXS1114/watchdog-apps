@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Watchdog Parent",
+    "slug": "watchdog-parent",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#080812"
+      },
+      "package": "com.watchdogparent"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Watchdog Child",
+    "slug": "watchdog-child",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.watchdogchild",
+      "permissions": [
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_MEDIA_PROJECTION",
+        "FOREGROUND_SERVICE_DATA_SYNC",
+        "RECEIVE_BOOT_COMPLETED",
+        "PACKAGE_USAGE_STATS"
+      ]
+    }
+  }
+}
