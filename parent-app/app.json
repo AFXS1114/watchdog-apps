@@ -14,6 +14,18 @@
         "backgroundColor": "#080812"
       },
       "package": "com.watchdogparent"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c58efa0d-d0ec-4a9f-b29d-d2f48eda5665"
+      }
+    },
+    "owner": "afxs14",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/c58efa0d-d0ec-4a9f-b29d-d2f48eda5665"
     }
   }
 }

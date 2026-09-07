@@ -15,6 +15,18 @@
         "RECEIVE_BOOT_COMPLETED",
         "PACKAGE_USAGE_STATS"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec9a71b3-ed88-4b30-bed9-b7ce24dfb6a3"
+      }
+    },
+    "owner": "afxs14",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ec9a71b3-ed88-4b30-bed9-b7ce24dfb6a3"
     }
   }
 }
