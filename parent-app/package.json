@@ -22,7 +22,6 @@
     "expo": "~57.0.0",
     "react": "19.2.3",
     "react-native": "0.86.3",
-    "react-native-fast-image": "^8.6.3",
     "react-native-gesture-handler": "~2.32.0",
     "react-native-image-viewing": "^0.2.2",
     "react-native-reanimated": "4.5.1",
@@ -44,5 +43,10 @@
     "@react-native/typescript-config": "0.86.3",
     "@types/react": "~19.2.4",
     "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "react-native-fast-image": {
+      "react": "$react"
+    }
   }
 }
