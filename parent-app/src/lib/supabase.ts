@@ -3,8 +3,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const env = (globalThis as { process?: { env?: Record<string, string | undefined> } }).process?.env;
 
-const SUPABASE_URL = env?.SUPABASE_URL ?? 'https://YOUR_PROJECT.supabase.co';
-const SUPABASE_ANON_KEY = env?.SUPABASE_ANON_KEY ?? 'YOUR_ANON_KEY';
+const SUPABASE_URL = env?.SUPABASE_URL ?? 'https://fpgzidwmgkrrubejqkte.supabase.co';
+const SUPABASE_ANON_KEY = env?.SUPABASE_ANON_KEY ?? 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwZ3ppZHdtZ2tycnViZWpxa3RlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3ODg0MzcsImV4cCI6MjEwNDM2NDQzN30.QqDElodbb-tPWXdmcO72WYo1IQJHKFLEjBB1BuFJLBg';
+
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: {
